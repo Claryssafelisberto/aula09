@@ -1,0 +1,55 @@
+/* tag comentario */
+/* podemos selecionar una tag pelo nome , pelo id ( indentificador unico ou pela classe.) */
+body{
+    background-color: rgb(153, 118, 185);
+    background-image: url("https://product-data.raiadrogasil.io/images/3447238.webp");
+    /*  faz com que a imagem nao repita */
+    background-repeat: no-repeat;
+    /* faz com que a imagem cubra todo o espaço do site */
+    background-size: cover;
+}
+p{
+  color: blue;  
+}
+/* sempre que chamamos uma tag pelo id , adicionamos o sinal de "#" no inicio  */
+#Claryssa{
+    color: rgb(172, 130, 211);
+}
+/* sempre que chamamos uma tag pela classe, adicionamos o sinal de "." no inicio */
+
+.titulo{
+    /* adiciona um sublinhado ao texto */
+text-decoration: underline;
+/* alterar o tamanho da fonte, medidas em (px,rem) */
+font-size: 16px;
+/* seleciona a familia da fonte */
+font-family: Arial, Helvetica, sans-serif;
+/* altera o nivel de negrito da fonte */
+font-weight: 400;
+}
+
+img{
+    /* altera a altura da imagem */
+    height: 400px;
+    /* altera a largura da imagem */
+    width: 400;
+}
+ul{
+    /*altera o estilo da lista  */
+    list-style: none;
+    display: flex;
+    li{
+      /* cria um espaçamento interno */
+        padding: 20px;
+/* alterna o arredondamento dos itens */
+        background-color: rgb(173, 68, 68);
+        /* cria um espaçamento entre itens */
+        margin: 10px;
+        border-radius: 10px;
+        a{
+            /* altera a cor da fonte */
+              color: rgb(102, 155, 155);
+            text-decoration: none;
+        }
+    }
+}
